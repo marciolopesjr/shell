@@ -76,6 +76,34 @@ Singleton {
             if (colours.hasOwnProperty(propName))
                 colours[propName] = `#${colour}`;
         }
+
+        if (scheme.name === "dynamic") {
+            const luana = {
+                m3primary: "#b71f24",
+                m3primaryContainer: "#8f2024",
+                m3secondary: "#e3c49a",
+                m3secondaryContainer: "#39302c",
+                m3tertiary: "#d6c6a7",
+                m3tertiaryContainer: "#8f2024",
+                m3background: "#151212",
+                m3surface: "#151212",
+                m3surfaceDim: "#151212",
+                m3surfaceContainerLowest: "#100d0c",
+                m3surfaceContainerLow: "#181312",
+                m3surfaceContainer: "#1d1715",
+                m3surfaceContainerHigh: "#29211e",
+                m3surfaceContainerHighest: "#39302c",
+                m3onBackground: "#eedfbd",
+                m3onSurface: "#eedfbd",
+                m3onSurfaceVariant: "#c9bda5",
+                m3outline: "#8e9ba3",
+                m3outlineVariant: "#655650",
+                m3error: "#ef5b54"
+            };
+
+            for (const [name, colour] of Object.entries(luana))
+                colours[name] = colour;
+        }
     }
 
     function setMode(mode: string): void {
