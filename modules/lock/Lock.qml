@@ -7,7 +7,13 @@ import Quickshell.Wayland
 import qs.components.misc
 
 Scope {
+    id: root
+
     property alias lock: lock
+
+    function lockSession(): void {
+        Quickshell.execDetached(["hyprlock", "-c", "/home/lopes/.config/hypr/luana/hyprlock.conf"]);
+    }
 
     WlSessionLock {
         id: lock
@@ -45,7 +51,7 @@ Scope {
         // qmllint enable unresolved-type
         name: "lock"
         description: "Lock the current session"
-        onPressed: lock.locked = true
+        onPressed: root.lockSession()
     }
 
     // qmllint disable unresolved-type
@@ -58,7 +64,7 @@ Scope {
 
     IpcHandler {
         function lock(): void {
-            lock.locked = true;
+            root.lockSession();
         }
 
         function unlock(): void {
