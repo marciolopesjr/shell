@@ -94,7 +94,7 @@
       fileset = lib.fileset.unions [./../CMakeLists.txt ./../plugin ./../scripts/trs.fish];
     };
 
-    nativeBuildInputs = [cmake ninja pkg-config];
+    nativeBuildInputs = [cmake ninja pkg-config fish];
     buildInputs = [qt6.qtbase qt6.qtdeclarative qt6.qtmultimedia qt6.qtshadertools libqalculate pipewire aubio libcava fftw lm_sensors];
 
     dontWrapQtApps = true;
