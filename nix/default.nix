@@ -98,6 +98,9 @@
     buildInputs = [qt6.qtbase qt6.qtdeclarative qt6.qtmultimedia qt6.qtshadertools libqalculate pipewire aubio libcava fftw lm_sensors];
 
     dontWrapQtApps = true;
+    preConfigure = ''
+      substituteInPlace scripts/trs.fish --replace-fail '#!/usr/bin/env fish' '#!${fish}/bin/fish'
+    '';
     cmakeFlags =
       [
         (lib.cmakeFeature "ENABLE_MODULES" "plugin")
