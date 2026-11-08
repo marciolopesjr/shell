@@ -1,0 +1,1194 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: caelestia-shell\n"
+"Language: pt_BR\n"
+"PO-Revision-Date: 2026-11-08 00:00+0000\n"
+"Last-Translator: Caelestia Shell contributors\n"
+"Language-Team: Portuguese (Brazil)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "%1%"
+msgstr "%1%"
+
+msgid "Pair new device"
+msgstr "Parear novo dispositivo"
+
+msgid "Available devices"
+msgstr "Dispositivos disponíveis"
+
+msgid "Searching for devices…"
+msgstr "Procurando dispositivos…"
+
+msgid "Unknown device"
+msgstr "Dispositivo desconhecido"
+
+msgid "Pairing..."
+msgstr "Pareando..."
+
+msgid "Allow this device to connect automatically"
+msgstr "Permitir que este dispositivo se conecte automaticamente"
+
+msgid "Prevent this device from connecting"
+msgstr "Impedir que este dispositivo se conecte"
+
+msgid "Wake allowed"
+msgstr "Ativação permitida"
+
+msgid "Allow this device to wake the system"
+msgstr "Permitir que este dispositivo ative o sistema"
+
+msgid "Battery"
+msgstr "Bateria"
+
+msgid "Add network"
+msgstr "Adicionar rede"
+
+msgid "Enter the details below to manually connect to a network."
+msgstr "Insira os dados abaixo para se conectar manualmente a uma rede."
+
+msgid "Network name (SSID)"
+msgstr "Nome da rede (SSID)"
+
+msgid "e.g. MyHiddenNetwork"
+msgstr "ex.: MinhaRedeOculta"
+
+msgid "Network name is required"
+msgstr "O nome da rede é obrigatório"
+
+msgid "Hidden network"
+msgstr "Rede oculta"
+
+msgid "Actively probe for a network that doesn't broadcast its name"
+msgstr "Procurar ativamente uma rede que não divulga seu nome"
+
+msgid "Security"
+msgstr "Segurança"
+
+msgid "WPA/WPA2/WPA3 Personal"
+msgstr "WPA/WPA2/WPA3 Pessoal"
+
+msgid "Password"
+msgstr "Senha"
+
+msgid "WPA passwords are at least 8 characters"
+msgstr "As senhas WPA devem ter pelo menos 8 caracteres"
+
+msgid "Connection failed — check the password"
+msgstr "Falha na conexão — verifique a senha"
+
+msgid "Password must be at least 8 characters"
+msgstr "A senha deve ter pelo menos 8 caracteres"
+
+msgid "Connect"
+msgstr "Conectar"
+
+msgid "Disconnect"
+msgstr "Desconectar"
+
+msgid "Connection"
+msgstr "Conexão"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Speed"
+msgstr "Velocidade"
+
+msgid "IP address"
+msgstr "Endereço IP"
+
+msgid "Gateway"
+msgstr "Gateway"
+
+msgid "MAC address"
+msgstr "Endereço MAC"
+
+msgid "IP assignment"
+msgstr "Configuração de IP"
+
+msgid "Automatic (DHCP)"
+msgstr "Automático (DHCP)"
+
+msgid "Automatic, DNS only"
+msgstr "Automático, somente DNS"
+
+msgid "Address (CIDR)"
+msgstr "Endereço (CIDR)"
+
+msgid "IP and prefix, e.g. 192.168.1.50/24"
+msgstr "IP e prefixo, ex.: 192.168.1.50/24"
+
+msgid "Enter a valid address in CIDR notation"
+msgstr "Insira um endereço válido na notação CIDR"
+
+msgid "Enter a valid gateway address"
+msgstr "Insira um endereço de gateway válido"
+
+msgid "DNS servers"
+msgstr "Servidores DNS"
+
+msgid "Comma-separated"
+msgstr "Separados por vírgulas"
+
+msgid "Enter valid DNS server addresses"
+msgstr "Insira endereços válidos de servidores DNS"
+
+msgid "Apply"
+msgstr "Aplicar"
+
+msgid "Edit VPN provider"
+msgstr "Editar provedor de VPN"
+
+msgid "Add VPN provider"
+msgstr "Adicionar provedor de VPN"
+
+msgid "Built-in names (wireguard, warp, tailscale, netbird) auto-fill their commands. For others, provide the connect/disconnect commands."
+msgstr "Os nomes integrados (wireguard, warp, tailscale, netbird) preenchem os comandos automaticamente. Para outros, informe os comandos de conexão/desconexão."
+
+msgid "Provider name"
+msgstr "Nome do provedor"
+
+msgid "Built-in id or a custom name"
+msgstr "ID integrado ou nome personalizado"
+
+msgid "Provider name is required"
+msgstr "O nome do provedor é obrigatório"
+
+msgid "Display name"
+msgstr "Nome de exibição"
+
+msgid "Shown in the list"
+msgstr "Exibido na lista"
+
+msgid "Network interface (for WireGuard / status checks)"
+msgstr "Interface de rede (para WireGuard / verificações de status)"
+
+msgid "Custom commands (optional)"
+msgstr "Comandos personalizados (opcional)"
+
+msgid "Connect command"
+msgstr "Comando para conectar"
+
+msgid "Leave empty to use the built-in default"
+msgstr "Deixe vazio para usar o padrão integrado"
+
+msgid "Disconnect command"
+msgstr "Comando para desconectar"
+
+msgid "Delete"
+msgstr "Excluir"
+
+msgid "Saved networks"
+msgstr "Redes salvas"
+
+msgid "No saved networks"
+msgstr "Nenhuma rede salva"
+
+msgid "Network"
+msgstr "Rede"
+
+msgid "Forget"
+msgstr "Esquecer"
+
+msgid "Signal"
+msgstr "Sinal"
+
+msgid "Frequency"
+msgstr "Frequência"
+
+msgid "Behaviour"
+msgstr "Comportamento"
+
+msgid "Connect automatically"
+msgstr "Conectar automaticamente"
+
+msgid "Join this network when it's in range"
+msgstr "Conectar a esta rede quando estiver ao alcance"
+
+msgid "All networks"
+msgstr "Todas as redes"
+
+msgid "Wi-Fi"
+msgstr "Wi-Fi"
+
+msgid "Show all networks (%1)"
+msgstr "Mostrar todas as redes (%1)"
+
+msgid "VPN"
+msgstr "VPN"
+
+msgid "No VPN providers configured"
+msgstr "Nenhum provedor de VPN configurado"
+
+msgid "Tap to select"
+msgstr "Toque para selecionar"
+
+msgid "Connecting..."
+msgstr "Conectando..."
+
+msgid "Disconnecting..."
+msgstr "Desconectando..."
+
+msgid "Authentication required"
+msgstr "Autenticação necessária"
+
+msgid "An error occurred"
+msgstr "Ocorreu um erro"
+
+msgid "Selected"
+msgstr "Selecionado"
+
+msgid "Add provider"
+msgstr "Adicionar provedor"
+
+msgid "Wallpaper & style"
+msgstr "Papel de parede e estilo"
+
+msgid "Wallpaper disabled"
+msgstr "Papel de parede desativado"
+
+msgid "Wallpapers"
+msgstr "Papéis de parede"
+
+msgid "Colours"
+msgstr "Cores"
+
+msgid "Display wallpaper"
+msgstr "Exibir papel de parede"
+
+msgid "Transparency"
+msgstr "Transparência"
+
+msgid "Base %1, layers %2"
+msgstr "Base %1, camadas %2"
+
+msgid "Dark theme"
+msgstr "Tema escuro"
+
+msgid "Panels"
+msgstr "Painéis"
+
+msgid "Dashboard"
+msgstr "Painel"
+
+msgid "Taskbar"
+msgstr "Barra de tarefas"
+
+msgid "Always visible"
+msgstr "Sempre visível"
+
+msgid "Reveal on hover"
+msgstr "Exibir ao passar o cursor"
+
+msgid "Reveal on drag"
+msgstr "Exibir ao arrastar"
+
+msgid "Launcher"
+msgstr "Inicializador"
+
+msgid "Sidebar"
+msgstr "Barra lateral"
+
+msgid "Utilities"
+msgstr "Utilitários"
+
+msgid "Browse"
+msgstr "Procurar"
+
+msgid "Select an image"
+msgstr "Selecionar uma imagem"
+
+msgid "Image files"
+msgstr "Arquivos de imagem"
+
+msgid "Random"
+msgstr "Aleatório"
+
+msgid "Featured wallpaper"
+msgstr "Papel de parede em destaque"
+
+msgid "Local wallpapers"
+msgstr "Papéis de parede locais"
+
+msgid "No local wallpapers found"
+msgstr "Nenhum papel de parede local encontrado"
+
+msgid "Page under construction"
+msgstr "Página em construção"
+
+msgid "This page will be available in a future update."
+msgstr "Esta página estará disponível em uma atualização futura."
+
+msgid "Apps"
+msgstr "Aplicativos"
+
+msgid "Default applications"
+msgstr "Aplicativos padrão"
+
+msgid "All apps"
+msgstr "Todos os aplicativos"
+
+msgid "Browse installed apps, set favourites and hidden"
+msgstr "Veja os aplicativos instalados e defina favoritos e itens ocultos"
+
+msgid "App volumes"
+msgstr "Volume dos aplicativos"
+
+msgid "Adjust the volume of individual apps currently playing audio."
+msgstr "Ajuste o volume de cada aplicativo que está reproduzindo áudio."
+
+msgid "No apps playing audio"
+msgstr "Nenhum aplicativo reproduzindo áudio"
+
+msgid "Services"
+msgstr "Serviços"
+
+msgid "Notifications"
+msgstr "Notificações"
+
+msgid "Notifications, toasts, timeouts"
+msgstr "Notificações, avisos e tempos limite"
+
+msgid "Polling"
+msgstr "Intervalos de atualização"
+
+msgid "Media refresh"
+msgstr "Atualização de mídia"
+
+msgid "How often the media position updates (ms)"
+msgstr "Com que frequência a posição da mídia é atualizada (ms)"
+
+msgid "System stats refresh"
+msgstr "Atualização das estatísticas do sistema"
+
+msgid "CPU, memory and GPU update interval (seconds)"
+msgstr "Intervalo de atualização de CPU, memória e GPU (segundos)"
+
+msgid "Wi-Fi rescan"
+msgstr "Nova busca por redes Wi-Fi"
+
+msgid "How often available networks are rescanned (seconds)"
+msgstr "Com que frequência as redes disponíveis são procuradas novamente (segundos)"
+
+msgid "Media & lyrics"
+msgstr "Mídia e letras"
+
+msgid "Lyrics backend"
+msgstr "Fonte das letras"
+
+msgid "Source used to fetch synced lyrics"
+msgstr "Fonte usada para buscar letras sincronizadas"
+
+msgid "Default player"
+msgstr "Reprodutor padrão"
+
+msgid "Preferred media player when several are open"
+msgstr "Reprodutor de mídia preferido quando há vários abertos"
+
+msgid "Input increments"
+msgstr "Incrementos dos controles"
+
+msgid "Volume step"
+msgstr "Incremento do volume"
+
+msgid "Amount the volume changes per scroll (%)"
+msgstr "Quanto o volume muda a cada rolagem (%)"
+
+msgid "Brightness step"
+msgstr "Incremento do brilho"
+
+msgid "Amount the brightness changes per scroll (%)"
+msgstr "Quanto o brilho muda a cada rolagem (%)"
+
+msgid "Max volume"
+msgstr "Volume máximo"
+
+msgid "Upper limit for output volume (%)"
+msgstr "Limite máximo do volume de saída (%)"
+
+msgid "Service tuning"
+msgstr "Ajustes dos serviços"
+
+msgid "Visualiser bars"
+msgstr "Barras do visualizador"
+
+msgid "Number of bars in the audio visualisers"
+msgstr "Número de barras nos visualizadores de áudio"
+
+msgid "Smart colour scheme"
+msgstr "Esquema de cores inteligente"
+
+msgid "Derive theme mode and variant from the wallpaper"
+msgstr "Definir o modo e a variante do tema com base no papel de parede"
+
+msgid "Monitoring: %1"
+msgstr "Monitorando: %1"
+
+msgid "Override for GPU type"
+msgstr "Substituir o tipo de GPU"
+
+msgid "About"
+msgstr "Sobre"
+
+msgid "System"
+msgstr "Sistema"
+
+msgid "Hostname"
+msgstr "Nome do computador"
+
+msgid "Distro"
+msgstr "Distribuição"
+
+msgid "Kernel"
+msgstr "Kernel"
+
+msgid "Firmware"
+msgstr "Firmware"
+
+msgid "Software"
+msgstr "Software"
+
+msgid "Plugins"
+msgstr "Plugins"
+
+msgid "Loaded plugins"
+msgstr "Plugins carregados"
+
+msgid "App info"
+msgstr "Informações do aplicativo"
+
+msgid "Favourite"
+msgstr "Favorito"
+
+msgid "Matched by a regex in favouriteApps — edit the config file to change"
+msgstr "Correspondência com uma expressão regular em favouriteApps — edite o arquivo de configuração para alterar"
+
+msgid "Pin to the top of the launcher"
+msgstr "Fixar no topo do inicializador"
+
+msgid "Hidden"
+msgstr "Oculto"
+
+msgid "Matched by a regex in hiddenApps — edit the config file to change"
+msgstr "Correspondência com uma expressão regular em hiddenApps — edite o arquivo de configuração para alterar"
+
+msgid "Hide from the launcher"
+msgstr "Ocultar do inicializador"
+
+msgid "Details"
+msgstr "Detalhes"
+
+msgid "App ID"
+msgstr "ID do aplicativo"
+
+msgid "Command"
+msgstr "Comando"
+
+msgid "Connected devices"
+msgstr "Dispositivos conectados"
+
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+msgid "No saved devices"
+msgstr "Nenhum dispositivo salvo"
+
+msgid "Bluetooth disabled"
+msgstr "Bluetooth desativado"
+
+msgid "Allow nearby devices to find this one"
+msgstr "Permitir que dispositivos próximos encontrem este dispositivo"
+
+msgid "Allow nearby devices to pair with this one"
+msgstr "Permitir que dispositivos próximos pareiem com este dispositivo"
+
+msgid "General"
+msgstr "Geral"
+
+msgid "Show the utilities panel"
+msgstr "Mostrar o painel de utilitários"
+
+msgid "Cards"
+msgstr "Cartões"
+
+msgid "Keep awake"
+msgstr "Manter ativo"
+
+msgid "Show the idle inhibitor card"
+msgstr "Mostrar o cartão para impedir a suspensão por inatividade"
+
+msgid "Screen recorder"
+msgstr "Gravador de tela"
+
+msgid "Show the screen recorder card"
+msgstr "Mostrar o cartão do gravador de tela"
+
+msgid "Quick toggles"
+msgstr "Controles rápidos"
+
+msgid "Show the quick toggles card"
+msgstr "Mostrar o cartão de controles rápidos"
+
+msgid "Toggle wireless networking"
+msgstr "Ativar ou desativar a rede sem fio"
+
+msgid "Microphone"
+msgstr "Microfone"
+
+msgid "Mute or unmute the default source"
+msgstr "Silenciar ou ativar a fonte de áudio padrão"
+
+msgid "Settings"
+msgstr "Configurações"
+
+msgid "Open the settings window"
+msgstr "Abrir a janela de configurações"
+
+msgid "Game mode"
+msgstr "Modo de jogo"
+
+msgid "Toggle game mode"
+msgstr "Ativar ou desativar o modo de jogo"
+
+msgid "Do not disturb"
+msgstr "Não perturbe"
+
+msgid "Silence notifications"
+msgstr "Silenciar notificações"
+
+msgid "Connect or disconnect the VPN"
+msgstr "Conectar ou desconectar a VPN"
+
+msgid "Workspaces"
+msgstr "Áreas de trabalho"
+
+msgid "Number of workspaces displayed"
+msgstr "Número de áreas de trabalho exibidas"
+
+msgid "Show workspaces that are inactive and empty"
+msgstr "Mostrar áreas de trabalho inativas e vazias"
+
+msgid "Hide workspaces not on the current monitor"
+msgstr "Ocultar áreas de trabalho que não estão no monitor atual"
+
+msgid "Show icons of open windows on each workspace"
+msgstr "Mostrar ícones das janelas abertas em cada área de trabalho"
+
+msgid "Lock keys"
+msgstr "Teclas de bloqueio"
+
+msgid "Keyboard layout"
+msgstr "Layout do teclado"
+
+msgid "Speakers"
+msgstr "Alto-falantes"
+
+msgid "Status icons"
+msgstr "Ícones de status"
+
+msgid "Visible icons"
+msgstr "Ícones visíveis"
+
+msgid "Add entry"
+msgstr "Adicionar item"
+
+msgid "Add new entry"
+msgstr "Adicionar novo item"
+
+msgid "Popout on hover"
+msgstr "Abrir painel ao passar o cursor"
+
+msgid "Show a details popout when hovering the status icons"
+msgstr "Mostrar um painel de detalhes ao passar o cursor sobre os ícones de status"
+
+msgid "Tray"
+msgstr "Bandeja do sistema"
+
+msgid "Recolour icons"
+msgstr "Recolorir ícones"
+
+msgid "Show the tray menu popout when hovering"
+msgstr "Mostrar o menu da bandeja ao passar o cursor"
+
+msgid "Active window"
+msgstr "Janela ativa"
+
+msgid "Show on hover"
+msgstr "Mostrar ao passar o cursor"
+
+msgid "Only show the active window title while hovering"
+msgstr "Mostrar o título da janela ativa somente ao passar o cursor"
+
+msgid "Show date"
+msgstr "Mostrar data"
+
+msgid "Show icon"
+msgstr "Mostrar ícone"
+
+msgid "Show seconds"
+msgstr "Mostrar segundos"
+
+msgid "Reveal when the cursor reaches the screen edge"
+msgstr "Exibir quando o cursor alcançar a borda da tela"
+
+msgid "Show clock seconds"
+msgstr "Mostrar segundos no relógio"
+
+msgid "Display seconds for the clock in the main panel"
+msgstr "Exibir os segundos do relógio no painel principal"
+
+msgid "Tabs"
+msgstr "Abas"
+
+msgid "Media"
+msgstr "Mídia"
+
+msgid "Performance"
+msgstr "Desempenho"
+
+msgid "Weather"
+msgstr "Clima"
+
+msgid "Performance widgets"
+msgstr "Widgets de desempenho"
+
+msgid "CPU"
+msgstr "CPU"
+
+msgid "Memory"
+msgstr "Memória"
+
+msgid "Storage"
+msgstr "Armazenamento"
+
+msgid "Drag threshold"
+msgstr "Limite de arraste"
+
+msgid "Pixels dragged before the dashboard opens"
+msgstr "Pixels a arrastar antes de abrir o painel"
+
+msgid "Persistent"
+msgstr "Permanente"
+
+msgid "Keep the bar visible at all times"
+msgstr "Manter a barra sempre visível"
+
+msgid "Reveal the bar when the cursor reaches the screen edge"
+msgstr "Exibir a barra quando o cursor alcançar a borda da tela"
+
+msgid "Pixels dragged before the bar reveals"
+msgstr "Pixels a arrastar antes de exibir a barra"
+
+msgid "Components"
+msgstr "Componentes"
+
+msgid "Indicators, window icons"
+msgstr "Indicadores e ícones de janelas"
+
+msgid "Title display, popout"
+msgstr "Exibição do título e painel flutuante"
+
+msgid "System tray icons"
+msgstr "Ícones da bandeja do sistema"
+
+msgid "Visible indicators"
+msgstr "Indicadores visíveis"
+
+msgid "Date, icon, background"
+msgstr "Data, ícone e plano de fundo"
+
+msgid "Scroll actions"
+msgstr "Ações de rolagem"
+
+msgid "Scroll over the workspace indicator to switch workspaces"
+msgstr "Role sobre o indicador de áreas de trabalho para alternar entre elas"
+
+msgid "Volume"
+msgstr "Volume"
+
+msgid "Scroll on the top half of the bar to adjust volume"
+msgstr "Role na metade superior da barra para ajustar o volume"
+
+msgid "Brightness"
+msgstr "Brilho"
+
+msgid "Scroll on the bottom half of the bar to adjust brightness"
+msgstr "Role na metade inferior da barra para ajustar o brilho"
+
+msgid "Action prefix"
+msgstr "Prefixo de ação"
+
+msgid "Prefix used to run actions in the launcher"
+msgstr "Prefixo usado para executar ações no inicializador"
+
+msgid "Prefix must not be alphanumeric"
+msgstr "O prefixo não pode conter letras ou números"
+
+msgid "Display"
+msgstr "Exibição"
+
+msgid "Max items shown"
+msgstr "Máximo de itens exibidos"
+
+msgid "Max wallpapers"
+msgstr "Máximo de papéis de parede"
+
+msgid "Pixels dragged before the launcher opens"
+msgstr "Pixels a arrastar antes de abrir o inicializador"
+
+msgid "Vim keybinds"
+msgstr "Atalhos de teclado do Vim"
+
+msgid "Navigate results with Ctrl+hjkl"
+msgstr "Navegar pelos resultados com Ctrl+hjkl"
+
+msgid "Enable dangerous actions"
+msgstr "Ativar ações perigosas"
+
+msgid "Allow actions that shut down or log out"
+msgstr "Permitir ações que desligam ou encerram a sessão"
+
+msgid "Fuzzy search"
+msgstr "Busca aproximada"
+
+msgid "Actions"
+msgstr "Ações"
+
+msgid "Schemes"
+msgstr "Esquemas"
+
+msgid "Variants"
+msgstr "Variantes"
+
+msgid "Audio"
+msgstr "Áudio"
+
+msgid "%n app playing audio"
+msgid_plural "%n apps playing audio"
+msgstr[0] "%n aplicativo reproduzindo áudio"
+msgstr[1] "%n aplicativos reproduzindo áudio"
+
+msgid "Data usage: %1"
+msgstr "Uso de dados: %1"
+
+msgid "Wired connection"
+msgstr "Conexão cabeada"
+
+msgid "Local IP Address"
+msgstr "Endereço IP local"
+
+msgid "Primary DNS"
+msgstr "DNS primário"
+
+msgid "No networks found"
+msgstr "Nenhuma rede encontrada"
+
+msgid "Wi-Fi disabled"
+msgstr "Wi-Fi desativado"
+
+msgid "Delete recording?"
+msgstr "Excluir gravação?"
+
+msgid "Recording '%1' will be permanently deleted."
+msgstr "A gravação '%1' será excluída permanentemente."
+
+msgid "Record fullscreen"
+msgstr "Gravar tela inteira"
+
+msgid "Record region"
+msgstr "Gravar região da tela"
+
+msgid "Record fullscreen with sound"
+msgstr "Gravar tela inteira com áudio"
+
+msgid "Record region with sound"
+msgstr "Gravar região da tela com áudio"
+
+msgid "Recording for %1"
+msgstr "Gravando há %1"
+
+msgid "Active since %1"
+msgstr "Ativo desde %1"
+
+msgid "Recordings"
+msgstr "Gravações"
+
+msgid "Recording at %1 %2"
+msgstr "Gravado em %1 às %2"
+
+msgid "No recordings found"
+msgstr "Nenhuma gravação encontrada"
+
+msgid "Collecting data..."
+msgstr "Coletando dados..."
+
+msgid "No disks detected"
+msgstr "Nenhum disco detectado"
+
+msgid "No disks"
+msgstr "Nenhum disco"
+
+msgid "No widgets enabled"
+msgstr "Nenhum widget ativado"
+
+msgid "Enable widgets in the dashboard settings"
+msgstr "Ative widgets nas configurações do painel"
+
+msgid "Detecting GPU..."
+msgstr "Detectando GPU..."
+
+msgid "No media"
+msgstr "Sem mídia"
+
+msgid "Unknown title"
+msgstr "Título desconhecido"
+
+msgid "Unknown album"
+msgstr "Álbum desconhecido"
+
+msgid "Unknown artist"
+msgstr "Artista desconhecido"
+
+msgid "Select a profile picture"
+msgstr "Selecionar uma foto de perfil"
+
+msgid "Profile picture changed"
+msgstr "Foto de perfil alterada"
+
+msgid "Profile picture changed to %1"
+msgstr "Foto de perfil alterada para %1"
+
+msgid "Unable to change profile picture"
+msgstr "Não foi possível alterar a foto de perfil"
+
+msgid "Failed to change profile picture to %1"
+msgstr "Falha ao alterar a foto de perfil para %1"
+
+msgid "Nothing playing"
+msgstr "Nada sendo reproduzido"
+
+msgid "Play something for it to show up here!"
+msgstr "Reproduza algo para aparecer aqui!"
+
+msgid "Loading..."
+msgstr "Carregando..."
+
+msgid "Sunrise"
+msgstr "Nascer do sol"
+
+msgid "Sunset"
+msgstr "Pôr do sol"
+
+msgid "Humidity"
+msgstr "Umidade"
+
+msgid "Wind"
+msgstr "Vento"
+
+msgid "7-day forecast"
+msgstr "Previsão para 7 dias"
+
+msgid "Lyrics"
+msgstr "Letras"
+
+msgid "Loading lyrics..."
+msgstr "Carregando letras..."
+
+msgid "No lyrics found"
+msgstr "Nenhuma letra encontrada"
+
+msgid "Backend: %1"
+msgstr "Serviço: %1"
+
+msgid "Selected candidate: %1 | %2 | %3"
+msgstr "Resultado selecionado: %1 | %2 | %3"
+
+msgid "Offset: %1 ms"
+msgstr "Deslocamento: %1 ms"
+
+msgid "Wallpaper missing?"
+msgstr "Papel de parede ausente?"
+
+msgid "Select a wallpaper"
+msgstr "Selecionar um papel de parede"
+
+msgid "Set it now!"
+msgstr "Definir agora!"
+
+msgid "No active client"
+msgstr "Nenhuma janela ativa"
+
+msgid "Try switching to a window"
+msgstr "Tente alternar para uma janela"
+
+msgid "%1 on monitor %2 at %3, %4"
+msgstr "%1 no monitor %2 em %3, %4"
+
+msgid "Position: %1, %2"
+msgstr "Posição: %1, %2"
+
+msgid "Size: %1 x %2"
+msgstr "Tamanho: %1 x %2"
+
+msgid "Workspace: %1 (%2)"
+msgstr "Área de trabalho: %1 (%2)"
+
+msgid "Monitor: %1 (%2) at %3, %4"
+msgstr "Monitor: %1 (%2) em %3, %4"
+
+msgid "Monitor: unknown"
+msgstr "Monitor: desconhecido"
+
+msgid "Initial title: %1"
+msgstr "Título inicial: %1"
+
+msgid "Initial title: unknown"
+msgstr "Título inicial: desconhecido"
+
+msgid "Initial class: %1"
+msgstr "Classe inicial: %1"
+
+msgid "Initial class: unknown"
+msgstr "Classe inicial: desconhecida"
+
+msgid "Process id: %1"
+msgstr "ID do processo: %1"
+
+msgid "Floating: yes"
+msgstr "Flutuante: sim"
+
+msgid "Floating: no"
+msgstr "Flutuante: não"
+
+msgid "Xwayland: yes"
+msgstr "Xwayland: sim"
+
+msgid "Xwayland: no"
+msgstr "Xwayland: não"
+
+msgid "Pinned: yes"
+msgstr "Fixada: sim"
+
+msgid "Pinned: no"
+msgstr "Fixada: não"
+
+msgid "Fullscreen state: off"
+msgstr "Tela cheia: desativada"
+
+msgid "Fullscreen state: maximised"
+msgstr "Tela cheia: maximizada"
+
+msgid "Fullscreen state: on"
+msgstr "Tela cheia: ativada"
+
+msgid "Fullscreen state: unknown"
+msgstr "Tela cheia: desconhecida"
+
+msgid "Move to workspace"
+msgstr "Mover para a área de trabalho"
+
+msgid "Tile"
+msgstr "Organizar em mosaico"
+
+msgid "Float"
+msgstr "Flutuante"
+
+msgid "Unpin"
+msgstr "Desafixar"
+
+msgid "Pin"
+msgstr "Fixar"
+
+msgid "Kill"
+msgstr "Encerrar à força"
+
+msgid "Screenshot taken"
+msgstr "Captura de tela realizada"
+
+msgid "Screenshot copied to clipboard"
+msgstr "Captura de tela copiada para a área de transferência"
+
+msgid "No body here! :/"
+msgstr "Sem conteúdo aqui! :/"
+
+msgid "notification"
+msgid_plural "notifications"
+msgstr[0] "notificação"
+msgstr[1] "notificações"
+
+msgid "All up to date!"
+msgstr "Tudo atualizado!"
+
+msgid "Keyboard layouts"
+msgstr "Layouts de teclado"
+
+msgid "XKB limitation: maximum 4 layouts allowed"
+msgstr "Limitação do XKB: são permitidos no máximo 4 layouts"
+
+msgid "Keyboard layout limit"
+msgstr "Limite de layouts de teclado"
+
+msgid "XKB supports only 4 layouts at a time"
+msgstr "O XKB permite apenas 4 layouts por vez"
+
+msgid "Enter password"
+msgstr "Digite a senha"
+
+msgid "Network: %1"
+msgstr "Rede: %1"
+
+msgid "Unknown network"
+msgstr "Rede desconhecida"
+
+msgid "Connection failed. Please check your password and try again."
+msgstr "Falha na conexão. Verifique sua senha e tente novamente."
+
+msgid "Wireless"
+msgstr "Sem fio"
+
+msgid "Rescan networks"
+msgstr "Procurar redes novamente"
+
+msgid "Open settings"
+msgstr "Abrir configurações"
+
+msgid "Caps lock enabled"
+msgstr "Caps Lock ativado"
+
+msgid "Caps lock disabled"
+msgstr "Caps Lock desativado"
+
+msgid "Num lock enabled"
+msgstr "Num Lock ativado"
+
+msgid "Num lock disabled"
+msgstr "Num Lock desativado"
+
+msgid "Volume (muted)"
+msgstr "Volume (silenciado)"
+
+msgid "Volume (%1%)"
+msgstr "Volume (%1%)"
+
+msgid "The device is too hot"
+msgstr "O dispositivo está superaquecido"
+
+msgid "The device is on a lap"
+msgstr "O dispositivo está sobre uma superfície macia"
+
+msgid "Unknown reason"
+msgstr "Motivo desconhecido"
+
+msgid "Remaining: %1%"
+msgstr "Restante: %1%"
+
+msgid "No battery detected"
+msgstr "Nenhuma bateria detectada"
+
+msgid "Power profile: %1"
+msgstr "Perfil de energia: %1"
+
+msgid "Time remaining: %1"
+msgstr "Tempo restante: %1"
+
+msgid "Calculating remaining battery life..."
+msgstr "Calculando o tempo restante da bateria..."
+
+msgid "Time until charged: %1"
+msgstr "Tempo até a carga completa: %1"
+
+msgid "Fully charged!"
+msgstr "Totalmente carregada!"
+
+msgid "Calculating time until charged..."
+msgstr "Calculando o tempo até a carga completa..."
+
+msgid "Performance degraded"
+msgstr "Desempenho reduzido"
+
+msgid "All files"
+msgstr "Todos os arquivos"
+
+msgid "UI language, weather location, display units"
+msgstr "Idioma da interface, localização do clima e unidades de exibição"
+
+msgid "Language & region"
+msgstr "Idioma e região"
+
+msgid "Weather location"
+msgstr "Localização do clima"
+
+msgid "Display units"
+msgstr "Unidades de exibição"
+
+msgid "Temperature"
+msgstr "Temperatura"
+
+msgid "Data sizes"
+msgstr "Tamanhos de dados"
+
+msgid "Units for data sizes and network speeds"
+msgstr "Unidades para tamanhos de dados e velocidades de rede"
+
+msgid "Time & date"
+msgstr "Data e hora"
+
+msgid "Clock format"
+msgstr "Formato do relógio"
+
+msgid "How times are shown across the shell"
+msgstr "Como os horários são exibidos na interface"
+
+msgid "Language"
+msgstr "Idioma"
+
+msgid "UI language"
+msgstr "Idioma da interface"
+
+msgid "The language used in the shell UI"
+msgstr "Idioma usado na interface da shell"
+
+msgid "Auto"
+msgstr "Automático"
+
+msgid "Binary (KiB, MiB)"
+msgstr "Binário (KiB, MiB)"
+
+msgid "Decimal (KB, MB)"
+msgstr "Decimal (KB, MB)"
+
+msgid "12-hour"
+msgstr "12 horas"
+
+msgid "24-hour"
+msgstr "24 horas"
+
+msgid "Location picker coming soon"
+msgstr "Seletor de localização em breve"
+
+msgid "Choose your weather location on a map in a future update"
+msgstr "Escolha a localização do clima em um mapa em uma atualização futura"
+
+msgid "Units"
+msgstr "Unidades"
+
+msgid "Units for weather temperatures"
+msgstr "Unidades para temperaturas do clima"
+
+msgid "System temperatures"
+msgstr "Temperaturas do sistema"
+
+msgid "Units for CPU and GPU temperatures"
+msgstr "Unidades para temperaturas da CPU e GPU"
+
+msgid "System default"
+msgstr "Padrão do sistema"
+
+msgid "Select a file"
+msgstr "Selecionar um arquivo"
+
+msgid "This folder is empty"
+msgstr "Esta pasta está vazia"
