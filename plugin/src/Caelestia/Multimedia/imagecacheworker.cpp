@@ -115,6 +115,7 @@ void ImageCacheWorker::store(const QString& key, const QImage& image) {
     query.exec();
 
     qCDebug(lcCache).noquote() << "Stored" << key << image.size() << data.size() << "bytes";
+    emit cached(key, QUrl::fromLocalFile(pathFor(key)));
     evict();
 }
 

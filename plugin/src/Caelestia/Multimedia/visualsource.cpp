@@ -14,6 +14,17 @@ VisualSource::VisualSource(QObject* parent)
     : QObject(parent) {
     m_player.setLoops(QMediaPlayer::Infinite);
     QObject::connect(&m_player, &QMediaPlayer::mediaStatusChanged, this, &VisualSource::onMediaStatusChanged);
+    QObject::connect(ImageCache::instance(), &ImageCache::cached, this, [this](const QString& key, const QUrl& path) {
+        if (key != m_key)
+            return;
+        if (m_type == Type::Live) {
+            m_preview = path;
+            if (!m_videoReady)
+                setImagePath(path);
+        } else if (m_type == Type::Still) {
+            setImagePath(path);
+        }
+    });
 }
 
 VisualSource::Type VisualSource::type() const {

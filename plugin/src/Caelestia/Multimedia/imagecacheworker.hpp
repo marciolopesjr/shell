@@ -21,6 +21,9 @@ public:
     void storeFile(const QString& key, const QString& path, const QSize& bucket, Qt::AspectRatioMode mode);
     void storeImage(const QString& key, const QImage& image, const QSize& bucket, Qt::AspectRatioMode mode);
 
+signals:
+    void cached(const QString& key, const QUrl& path);
+
 private:
     void store(const QString& key, const QImage& image);
     void reconcile();

@@ -77,6 +77,7 @@ QImage fitted(const QImage& image, const QSize& bucket, Qt::AspectRatioMode mode
 }
 
 QImage readFitted(const QString& path, const QSize& bucket, Qt::AspectRatioMode mode) {
+    QImageReader::setAllocationLimit(0);
     QImageReader reader(path);
     reader.setAutoTransform(true);
 

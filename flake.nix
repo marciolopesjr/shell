@@ -38,7 +38,7 @@
       pkgs = pkgsOf.${system};
     in rec {
       caelestia-shell = pkgs.callPackage ./nix {
-        rev = self.rev or self.dirtyRev;
+        rev = self.rev or self.dirtyRev or "local";
         stdenv = pkgs.clangStdenv;
         quickshell = inputs.quickshell.packages.${system}.default.override {
           withX11 = false;

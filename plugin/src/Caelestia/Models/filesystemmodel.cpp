@@ -55,8 +55,12 @@ bool FileSystemEntry::isDir() const {
 
 bool FileSystemEntry::isImage() const {
     if (!m_isImageInitialised) {
-        const QImageReader reader(m_path);
-        m_isImage = reader.canRead();
+        if (m_fileInfo.isDir()) {
+            m_isImage = false;
+        } else {
+            const QImageReader reader(m_path);
+            m_isImage = reader.canRead();
+        }
         m_isImageInitialised = true;
     }
     return m_isImage;

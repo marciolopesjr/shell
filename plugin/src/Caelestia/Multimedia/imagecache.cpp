@@ -38,6 +38,7 @@ ImageCache::ImageCache()
     , m_worker(new ImageCacheWorker(m_dir)) {
     m_worker->moveToThread(&m_thread);
     QObject::connect(&m_thread, &QThread::finished, m_worker, &QObject::deleteLater);
+    QObject::connect(m_worker, &ImageCacheWorker::cached, this, &ImageCache::cached);
     m_thread.start(QThread::LowPriority);
     QMetaObject::invokeMethod(m_worker, &ImageCacheWorker::open, Qt::QueuedConnection);
 }

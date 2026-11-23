@@ -2,6 +2,7 @@
 
 #include <qimage.h>
 #include <qnamespace.h>
+#include <qobject.h>
 #include <qsize.h>
 #include <qstring.h>
 #include <qthread.h>
@@ -11,7 +12,9 @@ namespace caelestia::shell::multimedia {
 
 class ImageCacheWorker;
 
-class ImageCache {
+class ImageCache : public QObject {
+    Q_OBJECT
+
 public:
     Q_DISABLE_COPY_MOVE(ImageCache)
 
@@ -24,9 +27,12 @@ public:
     void store(const QString& key, const QString& path, const QSize& bucket, Qt::AspectRatioMode mode);
     void store(const QString& key, const QImage& image, const QSize& bucket, Qt::AspectRatioMode mode);
 
+signals:
+    void cached(const QString& key, const QUrl& path);
+
 private:
     explicit ImageCache();
-    ~ImageCache();
+    ~ImageCache() override;
 
     QString m_dir;
     QThread m_thread;
