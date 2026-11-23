@@ -23,15 +23,17 @@ Item {
     Loader {
         asynchronous: true
         anchors.centerIn: parent
-        sourceComponent: SysInfo.isDefaultLogo ? caelestiaLogo : distroIcon
+        sourceComponent: SysInfo.isDefaultLogo ? luaLogo : distroIcon
     }
 
     Component {
-        id: caelestiaLogo
+        id: luaLogo
 
-        Logo {
-            implicitWidth: Math.round(Tokens.font.body.large.pointSize * 1.6)
-            implicitHeight: Math.round(Tokens.font.body.large.pointSize * 1.6)
+        Image {
+            source: SysInfo.osLogo
+            width: Math.round(Tokens.font.body.large.pointSize * 1.6)
+            height: width
+            fillMode: Image.PreserveAspectFit
         }
     }
 

@@ -247,6 +247,9 @@ msgstr "Adicionar provedor"
 msgid "Wallpaper & style"
 msgstr "Papel de parede e estilo"
 
+msgid "Wallpaper, fonts, colours"
+msgstr "Papel de parede, fontes e cores"
+
 msgid "Wallpaper disabled"
 msgstr "Papel de parede desativado"
 
@@ -270,6 +273,9 @@ msgstr "Tema escuro"
 
 msgid "Panels"
 msgstr "Painéis"
+
+msgid "Dashboard, taskbar, launcher, sidebar"
+msgstr "Painel, barra de tarefas, inicializador e barra lateral"
 
 msgid "Dashboard"
 msgstr "Painel"
@@ -325,6 +331,9 @@ msgstr "Esta página estará disponível em uma atualização futura."
 msgid "Apps"
 msgstr "Aplicativos"
 
+msgid "Default apps, favourites, hidden apps"
+msgstr "Aplicativos padrão, favoritos e ocultos"
+
 msgid "Default applications"
 msgstr "Aplicativos padrão"
 
@@ -345,6 +354,9 @@ msgstr "Nenhum aplicativo reproduzindo áudio"
 
 msgid "Services"
 msgstr "Serviços"
+
+msgid "Poll intervals, lyrics backend"
+msgstr "Intervalos de atualização e serviço de letras"
 
 msgid "Notifications"
 msgstr "Notificações"
@@ -433,6 +445,27 @@ msgstr "Substituir o tipo de GPU"
 msgid "About"
 msgstr "Sobre"
 
+msgid "System information, credits"
+msgstr "Informações do sistema e créditos"
+
+msgid "Updates"
+msgstr "Atualizações"
+
+msgid "System updates"
+msgstr "Atualizações do sistema"
+
+msgid "Manage plugins"
+msgstr "Gerenciar plugins"
+
+msgid "Wi-Fi, ethernet, VPN"
+msgstr "Wi-Fi, Ethernet e VPN"
+
+msgid "Bluetooth, pairing"
+msgstr "Bluetooth e pareamento"
+
+msgid "App volumes, sound devices"
+msgstr "Volume dos aplicativos e dispositivos de áudio"
+
 msgid "System"
 msgstr "Sistema"
 
@@ -517,11 +550,27 @@ msgstr "Cartões"
 msgid "Keep awake"
 msgstr "Manter ativo"
 
+msgctxt "idle inhibitor"
+msgid "Keep awake"
+msgstr "Manter o sistema ativo"
+
 msgid "Show the idle inhibitor card"
 msgstr "Mostrar o cartão para impedir a suspensão por inatividade"
 
 msgid "Screen recorder"
 msgstr "Gravador de tela"
+
+msgctxt "recorder state"
+msgid "Ready"
+msgstr "Pronto"
+
+msgctxt "recorder state"
+msgid "Paused"
+msgstr "Pausado"
+
+msgctxt "recorder state"
+msgid "Running..."
+msgstr "Gravando..."
 
 msgid "Show the screen recorder card"
 msgstr "Mostrar o cartão do gravador de tela"
@@ -765,6 +814,76 @@ msgstr "Variantes"
 
 msgid "Audio"
 msgstr "Áudio"
+
+msgid "Feels like"
+msgstr "Sensação térmica"
+
+msgid "Today"
+msgstr "Hoje"
+
+msgid "No players"
+msgstr "Nenhum reprodutor"
+
+msgid "Partly cloudy"
+msgstr "Parcialmente nublado"
+
+msgid "Overcast"
+msgstr "Encoberto"
+
+msgid "Fog"
+msgstr "Neblina"
+
+msgid "Drizzle"
+msgstr "Garoa"
+
+msgid "Freezing drizzle"
+msgstr "Garoa congelante"
+
+msgid "Light rain"
+msgstr "Chuva fraca"
+
+msgid "Rain"
+msgstr "Chuva"
+
+msgid "Heavy rain"
+msgstr "Chuva forte"
+
+msgid "Light snow"
+msgstr "Neve fraca"
+
+msgid "Snow"
+msgstr "Neve"
+
+msgid "Heavy snow"
+msgstr "Neve intensa"
+
+msgid "Light snow showers"
+msgstr "Pancadas fracas de neve"
+
+msgid "Heavy snow showers"
+msgstr "Pancadas fortes de neve"
+
+msgid "Thunderstorm"
+msgstr "Trovoada"
+
+msgid "Thunderstorm with hail"
+msgstr "Trovoada com granizo"
+
+msgctxt "weather location unavailable"
+msgid "Unknown city"
+msgstr "Cidade desconhecida"
+
+msgctxt "weather condition"
+msgid "Unknown"
+msgstr "Desconhecida"
+
+msgctxt "apparent temperature"
+msgid "Feels like"
+msgstr "Sensação térmica"
+
+msgctxt "forecast column"
+msgid "Today"
+msgstr "Hoje"
 
 msgid "%n app playing audio"
 msgid_plural "%n apps playing audio"

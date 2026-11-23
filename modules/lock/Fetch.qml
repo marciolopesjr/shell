@@ -54,7 +54,7 @@ StyledRect {
 
             MonoText {
                 Layout.fillWidth: true
-                text: "caelestiafetch.sh"
+                text: "luafetch.sh"
                 elide: Text.ElideRight
             }
 
@@ -64,7 +64,7 @@ StyledRect {
                 Layout.preferredHeight: 0
                 active: !iconLoader.active
 
-                sourceComponent: SysInfo.isDefaultLogo ? caelestiaLogo : distroIcon
+                sourceComponent: SysInfo.isDefaultLogo ? luaLogo : distroIcon
             }
         }
 
@@ -77,9 +77,11 @@ StyledRect {
                 id: iconLoader
 
                 Layout.fillHeight: true
+                Layout.preferredWidth: height
+                Layout.preferredHeight: 0
                 active: root.width > Tokens.sizes.lock.largeLogoWidth
 
-                sourceComponent: SysInfo.isDefaultLogo ? caelestiaLogo : distroIcon
+                sourceComponent: SysInfo.isDefaultLogo ? luaLogo : distroIcon
             }
 
             ColumnLayout {
@@ -159,10 +161,13 @@ StyledRect {
     }
 
     Component {
-        id: caelestiaLogo
+        id: luaLogo
 
-        Logo {
-            width: height
+        Image {
+            source: SysInfo.osLogo
+            sourceSize.width: Math.max(1, Math.round(width))
+            sourceSize.height: Math.max(1, Math.round(height))
+            fillMode: Image.PreserveAspectFit
         }
     }
 
