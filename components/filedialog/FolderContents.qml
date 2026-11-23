@@ -193,14 +193,34 @@ Item {
 
             Component.onCompleted: {
                 const file = item.modelData;
-                if (file.isImage)
+                if (file.isDir) {
+                    const folderIcons = {
+                        "desktop": "folder-desktop",
+                        "área de trabalho": "folder-desktop",
+                        "documents": "folder-documents",
+                        "documentos": "folder-documents",
+                        "downloads": "folder-downloads",
+                        "music": "folder-music",
+                        "músicas": "folder-music",
+                        "pictures": "folder-pictures",
+                        "imagens": "folder-pictures",
+                        "public": "folder-publicshare",
+                        "público": "folder-publicshare",
+                        "templates": "folder-templates",
+                        "modelos": "folder-templates",
+                        "videos": "folder-videos",
+                        "vídeos": "folder-videos"
+                    };
+                    const key = file.name.toLowerCase();
+                    if (root.dialog.cwd.length === 1 && key in folderIcons)
+                        source = Quickshell.iconPath(folderIcons[key], "inode-directory");
+                    else
+                        source = Quickshell.iconPath("inode-directory");
+                } else if (file.isImage) {
                     source = Qt.resolvedUrl(file.path);
-                else if (!file.isDir)
+                } else {
                     source = Quickshell.iconPath(file.mimeType.replace("/", "-"), "application-x-zerosize");
-                else if (root.dialog.cwd.length === 1 && ["Desktop", "Documents", "Downloads", "Music", "Pictures", "Public", "Templates", "Videos"].includes(file.name))
-                    source = Quickshell.iconPath(`folder-${file.name.toLowerCase()}`);
-                else
-                    source = Quickshell.iconPath("inode-directory");
+                }
             }
         }
 
