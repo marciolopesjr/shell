@@ -1,16 +1,18 @@
 #!/usr/bin/env bash
 # Fast development loop for the shell.
 #
-# Run it inside the flake dev shell, which provides qs, clang and the Qt deps:
+# Run it from your normal shell — no flags, no dev shell to enter first:
 #
-#     nix develop -c scripts/dev.sh
+#     scripts/dev.sh
 #
-# It builds the C++ plugin incrementally into ./build (the first run is the
-# slow one; later runs only rebuild what changed), then stops the installed
-# caelestia systemd service and runs the shell straight from the working tree.
-# The dev copy of shell.qml keeps settings.watchFiles enabled, so every QML
-# save reloads the shell in about a second without compiling anything.
-# The installed service is restored when this script exits.
+# If qs is not available yet it re-execs itself inside the flake dev shell,
+# which provides qs, clang, ccache and the Qt deps. It then builds the C++
+# plugin incrementally into ./build (the first run is the slow one; later
+# runs only rebuild what changed), stops the installed shell service and
+# runs the shell straight from the working tree. The dev copy of shell.qml
+# keeps settings.watchFiles enabled, so every QML save reloads the shell in
+# about a second without compiling anything. The installed service is
+# restored when this script exits.
 
 set -euo pipefail
 
@@ -20,8 +22,12 @@ cd "$(dirname "$0")/.."
 export CCACHE_SLOPPINESS="${CCACHE_SLOPPINESS:+$CCACHE_SLOPPINESS,}pch_defines,time_macros"
 
 if ! command -v qs >/dev/null; then
-    echo "error: qs not found — run inside the dev shell: nix develop -c scripts/dev.sh" >&2
-    exit 1
+    if [[ -n "${CAELESTIA_DEV_IN_SHELL:-}" ]]; then
+        echo "error: qs not found inside the dev shell" >&2
+        exit 1
+    fi
+    export CAELESTIA_DEV_IN_SHELL=1
+    exec nix --extra-experimental-features "nix-command flakes" develop -c "$0"
 fi
 
 # Incremental build of the C++ plugin and compiled QML modules.
